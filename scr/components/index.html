@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="kk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Coffee Shop App</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- Google Fonts: Poppins -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <div class="app-container">
+    <!-- Жоғарғы бөлім (Header) -->
+    <header class="header">
+      <div class="user-info">
+        <span>Орналасқан жері</span>
+        <h3>Алматы, Қазақстан 📍</h3>
+      </div>
+      <div class="avatar">
+        <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=100&auto=format&fit=crop&q=80" alt="User Avatar">
+      </div>
+    </header>
+
+    <!-- Іздеу жолағы (Search) -->
+    <div class="search-box">
+      <input type="text" placeholder="Кофе іздеу...">
+      <button class="search-btn">🔍</button>
+    </div>
+
+    <!-- Баннер (Promo Banner) -->
+    <div class="promo-card">
+      <div class="promo-text">
+        <span class="badge">Промо</span>
+        <h2>1 Алсаң + 1 Тегін ☕</h2>
+      </div>
+    </div>
+
+    <!-- Категориялар (Categories) -->
+    <div class="categories">
+      <button class="cat-btn active">Cappuccino</button>
+      <button class="cat-btn">Machiato</button>
+      <button class="cat-btn">Latte</button>
+      <button class="cat-btn">Americano</button>
+    </div>
+
+    <!-- Кофе карточкалары (Product Grid) -->
+    <div class="coffee-grid">
+      <!-- 1-Карточка -->
+      <div class="coffee-card">
+        <div class="card-image">
+          <img src="https://images.unsplash.com/photo-1572442388796-11668a67e53d?w=400&auto=format&fit=crop&q=80" alt="Cappuccino">
+          <span class="rating">⭐ 4.8</span>
+        </div>
+        <h4>Cappuccino Chocolate</h4>
+        <p class="subtitle">Шоколад қосылған</p>
+        <div class="card-footer">
+          <span class="price">1 500 ₸</span>
+          <button class="add-btn">+</button>
+        </div>
+      </div>
+
+      <!-- 2-Карточка -->
+      <div class="coffee-card">
+        <div class="card-image">
+          <img src="https://images.unsplash.com/photo-1534778101976-62847782c213?w=400&auto=format&fit=crop&q=80" alt="Cappuccino Oat Milk">
+          <span class="rating">⭐ 4.9</span>
+        </div>
+        <h4>Cappuccino Oat Milk</h4>
+        <p class="subtitle">Сұлы сүтімен</p>
+        <div class="card-footer">
+          <span class="price">1 800 ₸</span>
+          <button class="add-btn">+</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Төменгі Навигация (Bottom Nav) -->
+    <nav class="bottom-nav">
+      <button class="nav-item active">🏠</button>
+      <button class="nav-item">❤️</button>
+      <button class="nav-item">🛍️</button>
+      <button class="nav-item">🔔</button>
+    </nav>
+  </div>
+
+</body>
+</html>
